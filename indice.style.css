@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Big Shoulders Text", sans-serif;
+    background-color: #111;
+    color: white;
+    position: relative;
+}
+body::before {
+    content: "";
+    background: url('assets/logo.jpeg') no-repeat left/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 930px;
+    height: 700px;
+    z-index: -1;
+    filter: blur(5px); /* Aplica desenfoque */
+    opacity: 0.5; /* Reduce la opacidad */
+}
+/* HEADER: contenedor del header */
+#modal .header {
+    position:relative;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* Imagen del header */
+#modal .header img {
+    width: 413px; 
+    height: 105px;       
+}
+
+/* Título 'PRODUCTOS' */
+#modal .header h1 {
+    position: absolute; /* Posiciona el título sobre la imagen */
+    top: 20%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Alineación perfecta al centro */
+    font-size: 3rem; /* Tamaño del texto */
+    color: #fff; /* Color blanco */
+    text-transform: uppercase; /* Mayúsculas */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para destacar */   
+    letter-spacing: 7px;
+}
+
+.container {
+    padding: 20px;
+    border: 5px solid #1e3712;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+
+/* Contenedor de las tarjetas */
+#modal .contenedor-productos {
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding:30px;
+    max-width: 800px;
+    margin: 0 ;
+}
+
+/* Estilo general para las tarjetas */
+#modal .card {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border: 3px solid #6e5f28; /* Color dorado para los bordes */
+    border-top-left-radius:  20px;
+    border-right: #111;
+    border-top: #111;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+#modal .card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px); /* Efecto hover */
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* BOTÓN REGRESAR */
+#modal .footer {
+    margin-top: 30px;
+}
+
+#modal .btn-regresar {
+    background-color: #146b09; /* Verde oscuro */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#modal .btn-regresar:hover {
+    background-color: #0e5007; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAST SUPLEMENTS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indice.style.css">
+</head>
+<body>
+  
+    <div class="container">
+        <div class="header">
+            <img src="/assets/logo.jpeg" alt="Beast Supplements Logo" class="logo">
+            <div class="welcome-text">
+                <div class="title">BIENVENIDOS</div>
+                <div class="store-image-container">
+                    <div class="store-text" onclick="openModal()">ONLINE STORE</div>
+                    <img src="/assets/BANNER.png" alt="Online Store" class="store-image">
+                </div>
+            </div>
+        </div>
+        <a href="#products" class="products-container"> 
+            <div class="products-image-container">  <span class="products-text">PRODUCTOS</span>
+            <img src="/assets/boton abajo.png" alt="Productos" class="products-image">
+        </div>    
+        </a>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+             <header class="header">
+                <div class="header__imagen"> 
+                 <img src="/assets/BANNER.png" alt="recuadro dorado">
+                 <h1 class="header_titulo">PRODUCTOS</h1>
+                </div>
+               </header>
+               <main class="contenedor-productos">
+                  <div class="card card-proteina">PROTEÍNAS</div>
+                  <div class="card card-preentreno">PRE-ENTRENOS</div>
+                  <div class="card card-aminoacidos">AMINOÁCIDOS</div>
+                  <div class="card card-farmacos">FÁRMACOS</div>
+                  <div class="card card-ropa">ROPA</div>
+                  <div class="card card-accesorios">ACCESORIOS</div>
+              </main>
+              
+              <!-- BOTÓN REGRESAR -->
+                <footer class="footer">
+                 <button class="btn-regresar" onclick="closeModal()">REGRESAR</button>
+              </footer>
+        </div>
+    </div>
+
+    <div id="products" class="products-section">
+        <h2>Productos</h2>
+        <p><div style="position: relative; width:1200px; height:500px;
+            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+            border-radius: 8px; will-change: transform;">
+             <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+               src="https://www.canva.com/design/DAGZpxUYBHE/XgF6jwbP5lW2R5tsU97_Ag/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+             </iframe>
+           </div>
+           <a href="Catálogo.html">CATALOGO COMPLETO AQUÍ</a></p>
+           <p><a href="ALMACEN.index.html">ALMACEN PARA AGREGAR PRODUCTOS</a></p>
+    </div>
+  
+<script src="script.js"></script>   
+</body>
+</html>

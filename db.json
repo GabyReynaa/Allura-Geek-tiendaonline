@@ -1,0 +1,93 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Proteina Insane Whey",
+      "descripcion": "Proteína en polvo de alta calidad",
+      "precio": 1250,
+      "imagen": "/Catalogo/prote1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Proteina Nitro Tech",
+      "descripcion": "Proteína avanzada para atletas",
+      "precio": 1750,
+      "imagen": "/Catalogo/prote2.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Mutant Whey",
+      "descripcion": "Proteína para aumento de masa muscular",
+      "precio": 1600,
+      "imagen": "/Catalogo/prote3.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Iso HD",
+      "descripcion": "Proteína aislada de alta calidad",
+      "precio": 920,
+      "imagen": "/Catalogo/prote4.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Lipo Black",
+      "descripcion": "Suplemento para pérdida de peso",
+      "precio": 650,
+      "imagen": "/Catalogo/amino1.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Creatina Drive",
+      "descripcion": "Suplemento de creatina para energía",
+      "precio": 300,
+      "imagen": "/Catalogo/amino2.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Amino Tone",
+      "descripcion": "Aminoácidos esenciales para recuperación",
+      "precio": 400,
+      "imagen": "/Catalogo/amino3.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Maniac",
+      "descripcion": "Pre-entreno de alto rendimiento",
+      "precio": 650,
+      "imagen": "/Catalogo/pre1.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Ryse / Koolaid",
+      "descripcion": "Pre-entreno con sabor innovador",
+      "precio": 450,
+      "imagen": "/Catalogo/pre2.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Psychotich",
+      "descripcion": "Pre-entreno extremo para energía máxima",
+      "precio": 650,
+      "imagen": "/Catalogo/pre3.jpg"
+    },
+    {
+      "id": "11",
+      "nombre": "Chocho",
+      "descripcion": "Fármaco para rendimiento deportivo",
+      "precio": 2500,
+      "imagen": "/Catalogo/farmaco1.jpg"
+    },
+    {
+      "id": "4484",
+      "imagen": "https://m.media-amazon.com/images/I/71DMy-w5gyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "descripcion": "Proteina Nueva",
+      "precio": "600"
+    },
+    {
+      "id": "7467",
+      "imagen": "https://m.media-amazon.com/images/I/71DMy-w5gyL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "descripcion": "Proteina Nueva",
+      "precio": "600"
+    }
+  ]
+}
